@@ -1,0 +1,35 @@
+git clone url
+git branch 
+git checkout -b branchname
+git checkout branchname
+git branch
+git status
+git add . or git add -a
+git commit -m "message"
+git push origin branchname
+-------code went to branch not to master branch
+
+git checkout master
+git pull origin master
+git pull origin master
+git checkout branchname
+git rebase master
+
+------ if conflicts it througs error---
+git add .
+git commit -m "message"
+git rebase --continue
+
+------- continue no rebase message
+
+git push origin branchname -f
+
+-------it save the changes with branch but not commit
+Git stash 
+Git stash pop -- to retrive the file
+
+-------- to delete the branch
+git branch -d branch name 
+
+--------- when you are uploading from our computer to git
+git remote add origin url 
